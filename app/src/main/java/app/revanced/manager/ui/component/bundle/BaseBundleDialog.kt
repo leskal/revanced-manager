@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.outlined.ArrowRight
+import androidx.compose.material.icons.automirrored.outlined.ArrowRight
 import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -170,7 +170,7 @@ fun BaseBundleDialog(
     ) {
         if (patchesClickable)
             Icon(
-                Icons.Outlined.ArrowRight,
+                Icons.AutoMirrored.Outlined.ArrowRight,
                 stringResource(R.string.patches)
             )
     }
